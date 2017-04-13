@@ -90,5 +90,6 @@ c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp.
 c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp.Android\obj\Debug\res\drawable\camera_icon.png
 c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp.Android\obj\Debug\NIOSHApp.Android.dll.mdb
 c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp.Android\bin\Debug\NIOSHApp.Android.dll.mdb

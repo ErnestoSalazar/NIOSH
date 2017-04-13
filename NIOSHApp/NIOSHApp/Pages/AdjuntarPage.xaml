@@ -1,7 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="NIOSHApp.Pages.AdjuntarPage">
+             x:Class="NIOSHApp.Pages.AdjuntarPage"
+             Title="Adjuntar">
 
-    <Label Text="ADJUNTAR"></Label>
+    <StackLayout Margin="5,0,0,0">
+        <StackLayout>
+        <Label Text="Notes" TextColor="Black"></Label>
+        <Entry Placeholder="Ingresa notas sobre el levantamiento" ></Entry>
+        </StackLayout>
+
+        <StackLayout Margin="-5,150,0,50">
+            <BoxView Color="Blue" WidthRequest="100" HeightRequest="2"></BoxView>
+        </StackLayout>
+
+        <StackLayout>
+            <Label Text="Foto" FontSize="16" TextColor="Black"></Label>
+
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Button  Image="camera_icon.png" BackgroundColor="Transparent" BorderWidth="0"></Button>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+
+    
+
+    
+    
 </ContentPage>
