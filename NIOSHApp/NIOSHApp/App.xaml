@@ -8,6 +8,10 @@
 		<!-- Application resource dictionary -->
 
         <ResourceDictionary>
+            
+            <!-- Buttons -->
+            
+            
 
             <infra:InstanceLocator x:Key="Locator"></infra:InstanceLocator>
         </ResourceDictionary>

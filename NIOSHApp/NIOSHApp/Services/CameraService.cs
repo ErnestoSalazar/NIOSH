@@ -1,4 +1,5 @@
 ﻿using Plugin.Media;
+using Plugin.Media.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,7 +28,7 @@ namespace NIOSHApp.Services
 
             if (file == null) return;
 
-            Image1.Source = ImageSource.FromStream(() => file.GetStream());
+            //Image1.Source = ImageSource.FromStream(() => file.GetStream());
 
         }
 
@@ -50,7 +51,7 @@ namespace NIOSHApp.Services
 
             if (file == null) return;
 
-            Image1.Source = ImageSource.FromStream(() => file.GetStream());
+            //Image1.Source = ImageSource.FromStream(() => file.GetStream());
         }
     }
 }

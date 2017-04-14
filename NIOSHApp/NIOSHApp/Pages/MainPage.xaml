@@ -2,10 +2,58 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NIOSHApp.Pages.MainPage"
-             Title="NIOSH"
+             Title="NIOSH - peso en libras"
              BindingContext="{Binding Main, Source={StaticResource Locator}}">
 
-    <Label Text="TEXTOOO"></Label>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="160" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <!-- COLUMNA IZQUIERDA = COLUMN 0 -->
+        <Label HorizontalOptions="FillAndExpand" Text=""                   Grid.Row="0" Grid.Column="0" />
+        <Button Text="HORIZONTAL(IN)"                   BackgroundColor="Transparent"  Grid.Row="1" Grid.Column="0" ></Button>
+        <Button Text="VERTICAL(IN)"                     BackgroundColor="Transparent"  Grid.Row="2" Grid.Column="0" ></Button>
+        <Button Text="ROTACIÓN (DEG)"                   BackgroundColor="Transparent"  Grid.Row="3" Grid.Column="0" ></Button>
+        <Button Text="LIFT/MIN"                         BackgroundColor="Transparent"  Grid.Row="4" Grid.Column="0" ></Button>
+        <Button Text="DURACIÓN"                         BackgroundColor="Transparent"  Grid.Row="5" Grid.Column="0" ></Button>
+        <Button Text="ACOPLAMIENTO"                     BackgroundColor="Transparent"  Grid.Row="6" Grid.Column="0" ></Button>
+        <Button Text="OBJETO"                           BackgroundColor="Transparent"  Grid.Row="7" Grid.Column="0" ></Button>
+        
+        <!-- COLUMNA DERECHA = COLUMN 1 -->
+        <Label Text="Origen"                                  Grid.Row="0" Grid.Column="1" />
+        <Entry Keyboard="Numeric" HorizontalTextAlignment="Center" VerticalOptions="End"  HorizontalOptions="Fill" Grid.Row="1" Grid.Column="1"></Entry>
+        <Entry Keyboard="Numeric" HorizontalTextAlignment="Center" VerticalOptions="End"  HorizontalOptions="Fill" Grid.Row="2" Grid.Column="1"></Entry>
+        <Entry Keyboard="Numeric" HorizontalTextAlignment="Center" VerticalOptions="End"  HorizontalOptions="Fill" Grid.Row="3" Grid.Column="1"></Entry>
+        <Picker x:Name="IndustryTypePicker1" HorizontalOptions="FillAndExpand" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2">
+            <Picker.Items>
+                <x:String>1HR</x:String>
+                <x:String>1-2 HR</x:String>
+                <x:String>2-8 HR</x:String>
+            </Picker.Items>
+        </Picker>
+        <Picker x:Name="IndustryTypePicker2" HorizontalOptions="FillAndExpand" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2">
+            <Picker.Items>
+                <x:String>1HR</x:String>
+                <x:String>1-2 HR</x:String>
+                <x:String>2-8 HR</x:String>
+            </Picker.Items>
+        </Picker>
+        <Entry Keyboard="Numeric" HorizontalTextAlignment="Center" VerticalOptions="End" HorizontalOptions="FillAndExpand" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2"></Entry>
+        <Entry Keyboard="Numeric" HorizontalTextAlignment="Center" VerticalOptions="End" HorizontalOptions="FillAndExpand" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="2"></Entry>
+
+        <!-- COLUMNA TERCERA = COLUMN 2 -->
+        <Label Text="Destino" Grid.Row="0" Grid.Column="2" />
+        <Entry Keyboard="Numeric" HorizontalTextAlignment="Center" VerticalOptions="End" HorizontalOptions="Fill" Grid.Row="1" Grid.Column="2"></Entry>
+        <Entry Keyboard="Numeric" HorizontalTextAlignment="Center" VerticalOptions="End" HorizontalOptions="Fill" Grid.Row="2" Grid.Column="2"></Entry>
+        <Entry Keyboard="Numeric" HorizontalTextAlignment="Center" VerticalOptions="End" HorizontalOptions="Fill" Grid.Row="3" Grid.Column="2"></Entry>
+    </Grid>
 
 
 </ContentPage>

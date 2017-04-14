@@ -17,8 +17,16 @@ namespace NIOSHApp.Pages {
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Picker IndustryTypePicker1;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Picker IndustryTypePicker2;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MainPage));
+            IndustryTypePicker1 = this.FindByName<global::Xamarin.Forms.Picker>("IndustryTypePicker1");
+            IndustryTypePicker2 = this.FindByName<global::Xamarin.Forms.Picker>("IndustryTypePicker2");
         }
     }
 }

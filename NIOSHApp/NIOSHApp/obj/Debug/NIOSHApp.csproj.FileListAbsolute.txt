@@ -26,5 +26,11 @@ c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\
 c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\obj\Debug\NIOSHApp.pdb
 c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\obj\Debug\NIOSHApp.Pages.CalcularPage.xaml.g.cs
 c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\obj\Debug\NIOSHApp.Pages.AdjuntarPage.xaml.g.cs
-c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\obj\Debug\NIOSHApp.dll.mdb
-c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\bin\Debug\NIOSHApp.dll.mdb
+c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\bin\Debug\Plugin.Media.Abstractions.dll
+c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\bin\Debug\Plugin.Media.dll
+c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\bin\Debug\Plugin.Media.pdb
+c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\bin\Debug\Plugin.Media.xml
+c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\bin\Debug\Plugin.Media.Abstractions.pdb
+c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\bin\Debug\Plugin.Media.Abstractions.xml
+C:\Users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\obj\Debug\NIOSHApp.dll.mdb
+C:\Users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\bin\Debug\NIOSHApp.dll.mdb

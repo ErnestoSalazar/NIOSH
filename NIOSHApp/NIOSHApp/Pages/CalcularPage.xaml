@@ -4,5 +4,70 @@
              x:Class="NIOSHApp.Pages.CalcularPage"
              Title="Calcular">
 
-    <Label Text="CALCULAAARS"></Label>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="160" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <!-- COLUMNA IZQUIERDA = COLUMN 0 -->
+        <Label HorizontalOptions="FillAndExpand" Text=""                               Grid.Row="0" Grid.Column="0" />
+        <Button Text="HORIZONTAL(IN)"                   BackgroundColor="Transparent"  Grid.Row="1" Grid.Column="0" ></Button>
+        <Button Text="VERTICAL(IN)"                     BackgroundColor="Transparent"  Grid.Row="2" Grid.Column="0" ></Button>
+        <Button Text="ROTACIÓN (DEG)"                   BackgroundColor="Transparent"  Grid.Row="3" Grid.Column="0" ></Button>
+        <Button Text="LIFT/MIN"                         BackgroundColor="Transparent"  Grid.Row="4" Grid.Column="0" ></Button>
+        <Button Text="DURACIÓN"                         BackgroundColor="Transparent"  Grid.Row="5" Grid.Column="0" ></Button>
+        <Button Text="ACOPLAMIENTO"                     BackgroundColor="Transparent"  Grid.Row="6" Grid.Column="0" ></Button>
+
+
+        <!--DIVIDER-->
+        <StackLayout Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="3">
+            <BoxView Color="Black" WidthRequest="100" HeightRequest="2"></BoxView>
+        </StackLayout>
+
+        <!--INFORMACION BAJO LA FRANJA NEGRA EN LA PANTALLA-->
+        <Label HorizontalOptions="FillAndExpand" Text="" Grid.Row="8" Grid.Column="0" />
+        <Label HorizontalOptions="FillAndExpand" Text="Origen" Grid.Row="9" Grid.Column="0" />
+        <Label HorizontalOptions="FillAndExpand" Text="Destino" Grid.Row="10" Grid.Column="0" />
+
+        <Button Text="Mandar Informe" BackgroundColor="#2196f3" TextColor="#FFF"                     Grid.Row="11" Grid.Column="0" Grid.ColumnSpan="3"></Button>
+
+        
+        
+        <!-- COLUMNA DERECHA = COLUMN 1 -->
+        <Label Text="Origen" HorizontalTextAlignment="Center" Grid.Row="0" Grid.Column="1" />
+        <Label Text="0.00"   HorizontalTextAlignment="Center" Grid.Row="1" Grid.Column="1"></Label>
+        <Label Text="0.00"   HorizontalTextAlignment="Center" Grid.Row="2" Grid.Column="1"></Label>
+        <Label Text="0.00"   HorizontalTextAlignment="Center" Grid.Row="3" Grid.Column="1"></Label>
+
+        <Label Text="0.00" HorizontalTextAlignment="Center" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2"></Label>
+        <Label Text="0.00" HorizontalTextAlignment="Center" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2"></Label>
+        <Label Text="0.00" HorizontalTextAlignment="Center" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2"></Label>
+
+        <!--INFORMACION BAJO LA FRANJA NEGRA EN LA PANTALLA-->
+        <Label Text="Peso limite recomendado" HorizontalTextAlignment="Center" Grid.Row="8" Grid.Column="1"></Label>
+        <Label Text="0.00" HorizontalTextAlignment="Center" Grid.Row="9" Grid.Column="1"></Label>
+        <Label Text="0.00" HorizontalTextAlignment="Center" Grid.Row="10" Grid.Column="1"></Label>
+
+        
+        
+        <!-- COLUMNA TERCERA = COLUMN 2 -->
+        <Label Text="Destino"     Grid.Row="0" Grid.Column="2" />
+        <Label Text="0.00"    HorizontalTextAlignment="Center"    Grid.Row="1" Grid.Column="2" />
+        <Label Text="0.00"    HorizontalTextAlignment="Center"    Grid.Row="2" Grid.Column="2" />
+        <Label Text="0.00"    HorizontalTextAlignment="Center"    Grid.Row="3" Grid.Column="2" />
+
+        <!--INFORMACION BAJO LA FRANJA NEGRA EN LA PANTALLA-->
+        <Label Text="Lift" HorizontalTextAlignment="Center" Grid.Row="8" Grid.Column="2"></Label>
+        <Label Text="0.00" HorizontalTextAlignment="Center" Grid.Row="9" Grid.Column="2"></Label>
+        <Label Text="0.00" HorizontalTextAlignment="Center" Grid.Row="10" Grid.Column="2"></Label>
+        
+
+    </Grid>
+    
 </ContentPage>
