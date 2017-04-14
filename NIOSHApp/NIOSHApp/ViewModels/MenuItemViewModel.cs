@@ -12,7 +12,6 @@ namespace NIOSHApp.ViewModels
     class MenuItemViewModel
     {
         NavigationService navigationService;
-
         public MenuItemViewModel()
         {
             navigationService = new NavigationService();
@@ -24,7 +23,24 @@ namespace NIOSHApp.ViewModels
 
         public ICommand NavigationCommand
         {
-            get { return new RelayCommand(() => navigationService.Navigate(PageName)); }
+            get { return new RelayCommand<string>(Navigation); }
+            //get { return new RelayCommand(() => navigationService.Navigate(PageName)); }
+        }
+
+        public void Navigation(string pageName)
+        {
+            switch (PageName)
+            {
+                case "MainPage":
+                    break;
+                case "AdjuntarPage":
+                    break;
+                case "CalcularPage":
+                    break;
+                default:
+                    break;
+            }
+            navigationService.Navigate(PageName);
         }
 
     }

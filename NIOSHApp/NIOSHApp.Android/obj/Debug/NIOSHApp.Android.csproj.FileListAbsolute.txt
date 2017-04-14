@@ -113,5 +113,5 @@ c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp.
 c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp.Android\obj\Debug\android\assets\Plugin.Media.dll.mdb
 c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp.Android\obj\Debug\android\assets\Plugin.Permissions.Abstractions.dll.mdb
 c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp.Android\obj\Debug\android\assets\Plugin.Permissions.dll.mdb
-C:\Users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp.Android\obj\Debug\NIOSHApp.Android.dll.mdb
-C:\Users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp.Android\bin\Debug\NIOSHApp.Android.dll.mdb
+C:\Users\soygo\Documents\Visual Studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp.Android\obj\Debug\NIOSHApp.Android.dll.mdb
+C:\Users\soygo\Documents\Visual Studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp.Android\bin\Debug\NIOSHApp.Android.dll.mdb

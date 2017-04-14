@@ -29,6 +29,7 @@
                             VerticalOptions="Center"
                             TextColor="{Binding MenuFontColor}"
                             Text="{Binding Title}"></Label>
+                        
                     </Grid>
                 </ViewCell>
             </DataTemplate>

@@ -18,7 +18,7 @@
         </Grid.ColumnDefinitions>
         <!-- COLUMNA IZQUIERDA = COLUMN 0 -->
         <Label HorizontalOptions="FillAndExpand" Text=""                   Grid.Row="0" Grid.Column="0" />
-        <Button Text="HORIZONTAL(IN)"                   BackgroundColor="Transparent"  Grid.Row="1" Grid.Column="0" ></Button>
+        <Button Text="HORIZONTAL(IN)"                   BackgroundColor="Transparent"  Grid.Row="1" Grid.Column="0" Command="{Binding ExampleMethod}" CommandParameter="tacos"></Button>
         <Button Text="VERTICAL(IN)"                     BackgroundColor="Transparent"  Grid.Row="2" Grid.Column="0" ></Button>
         <Button Text="ROTACIÓN (DEG)"                   BackgroundColor="Transparent"  Grid.Row="3" Grid.Column="0" ></Button>
         <Button Text="LIFT/MIN"                         BackgroundColor="Transparent"  Grid.Row="4" Grid.Column="0" ></Button>

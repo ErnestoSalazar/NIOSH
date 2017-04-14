@@ -17,7 +17,7 @@ namespace NIOSHApp.Services
             dialogService = new DialogService();
         }
 
-        private async void UploadPictureButton_Clicked(object sender, EventArgs e)
+        public async void UploadPictureButton_Clicked()
         {
             if (!CrossMedia.Current.IsPickPhotoSupported)
             {
@@ -32,7 +32,7 @@ namespace NIOSHApp.Services
 
         }
 
-        private async void TakePictureButton_Clicked(object sender, EventArgs e)
+        public async void TakePictureButton_Clicked()
         {
             await CrossMedia.Current.Initialize(); //Current representa la instancia singleton de esta clase
 

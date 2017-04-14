@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NIOSHApp.Pages.AdjuntarPage"
-             Title="Adjuntar">
+             Title="Adjuntar"
+             BindingContext="{Binding Main, Source={StaticResource Locator}}">
 
     <StackLayout Margin="5,0,0,0">
         <StackLayout>
@@ -18,7 +19,7 @@
             <Label Text="Foto" FontSize="16" TextColor="Black"></Label>
 
             <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-                <Button  Image="camera_icon.png" BackgroundColor="Transparent" BorderWidth="0"></Button>
+                <Button  Image="camera_icon.png" BackgroundColor="Transparent" BorderWidth="0" Command="{Binding PhotoOptionsCommand}" CommandParameter="photo"></Button>
             </StackLayout>
         </StackLayout>
     </StackLayout>

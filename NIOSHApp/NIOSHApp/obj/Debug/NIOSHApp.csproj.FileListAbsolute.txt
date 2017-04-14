@@ -32,5 +32,5 @@ c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\
 c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\bin\Debug\Plugin.Media.xml
 c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\bin\Debug\Plugin.Media.Abstractions.pdb
 c:\users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\bin\Debug\Plugin.Media.Abstractions.xml
-C:\Users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\obj\Debug\NIOSHApp.dll.mdb
-C:\Users\soygo\documents\visual studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\bin\Debug\NIOSHApp.dll.mdb
+C:\Users\soygo\Documents\Visual Studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\obj\Debug\NIOSHApp.dll.mdb
+C:\Users\soygo\Documents\Visual Studio 2015\Projects\NIOSHApp\NIOSHApp\NIOSHApp\bin\Debug\NIOSHApp.dll.mdb
